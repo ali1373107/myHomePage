@@ -1,0 +1,91 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+#logo{
+  width:150px;
+  margin-left:20px;
+  height:50px;
+}
+#div1{
+  display:grid;
+  grid-template-columns: 50px 50px;
+  grid-column-gap: 84%;
+  
+}
+.li{
+    display: inline-block;
+    justify-content:space-around;
+    list-style-type:none;
+    font-size:20px;
+    border:solid black 1px;
+    width:200px;
+    text-align:center   
+}
+#li1{
+  border-bottom:none;
+}
+.a-li{
+  text-decoration: none;
+}
+#img{
+  width:500px;
+  border-radius: 50%
+}
+#image-div{
+  text-align:center;
+}
+.c-site-header{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:30px;
+  
+}
+#hello{
+  text-align:center
+}
+#article{
+  width:60%;
+  margin-left:30px;
+}
+.c-site-footer{
+  margin-left:30px;
+}
+#submit1{
+  text-align:center
+}
+.li:hover{
+  background-color:grey;
+}
+#img:hover{
+  width:40%;
+}
+#submit:hover {
+background: #016ABC;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+.a-li:visited{
+  color:pink;
+}
+iframe{
+  width:560px;
+  height:315px;
+}
