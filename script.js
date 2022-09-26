@@ -64,9 +64,6 @@ test("There are at least 500 words on the page", () => {
   expect(getWords.length).toBeGreaterThanOrEqual(500);
 });
 
-var images;
-
-
 images = ['https://tse4.mm.bing.net/th?id=OIP.eIEz73xZoLmYwqTF92FciwHaEw&pid=Api&P=0', 'https://tse3.mm.bing.net/th?id=OIP.cFbSMhjRMOmNaJsl4nI2fwHaF7&pid=Api&P=0', 'https://tse2.mm.bing.net/th?id=OIP.ez64pUNihhf5d7vgHgdn8wHaFj&pid=Api&P=0', 'https://tse2.mm.bing.net/th?id=OIP.OlugQrXt4ksrPC-j0mCHMQHaFj&pid=Api&P=0'];
 let element_img = document.getElementById('img');
 element_img.setAttribute("src", images[0]);
