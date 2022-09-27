@@ -82,7 +82,35 @@ document.getElementById('next').addEventListener('click', (event) => {
   element_img3.setAttribute("src", images.shift());
 
 });
+var array;
+
+function getNumberOrString(value) {
+  // Convert a string value to a number if possible
+  let number_value = Number(value);
+  if (Number.isNaN(number_value)) {
+    return value
+  } else {
+    return number_value
+  }
+}
+
+
+
+document.getElementById('button').addEventListener('click', (event) => {
+  let element_list = document.getElementById('list');
+  let new_li = document.createElement('li');
+  let new_a = document.createElement('a');
+  new_a.setAttribute("href", getNumberOrString(document.getElementById('link').value));
+  new_a.innerText = getNumberOrString(document.getElementById('text').value);
+
+  new_li.appendChild(new_a);
+
+  element_list.appendChild(new_li);
+
+});
+array = [];
 
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
+
 
