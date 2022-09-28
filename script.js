@@ -90,11 +90,6 @@ document.getElementById('button').addEventListener('click', (event) => {
   element_list.appendChild(new_li);
 
 });
-array = [];
-
-const console = document.getElementById("tests");
-prettify.toHTML(run(), console);
-
 var images;
 
 
@@ -116,4 +111,11 @@ document.getElementById('next').addEventListener('click', (event) => {
   element_img3.setAttribute("src", images.shift());
 
 });
+
+array = [];
+
+const console = document.getElementById("tests");
+prettify.toHTML(run(), console);
+
+
 
