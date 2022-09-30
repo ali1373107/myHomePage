@@ -93,12 +93,12 @@ iframe{
   text-align:center;
 }
 #imgali{
-  width:50%;
+  width:40%;
   margin:30px;
   
 }
 #imgali:hover{
-  background-color:light grey;
+   width:55%;
   border-radius: 20px;
 }
 
