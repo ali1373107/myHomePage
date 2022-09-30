@@ -89,7 +89,11 @@ iframe{
   width:560px;
   height:315px;
 }
-.fistchange{
-  display:centre;
+.firstchange{
   text-align:center;
 }
+.imgali{
+  width:50%;
+  margin:30px;
+}
+
