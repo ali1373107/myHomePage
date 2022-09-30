@@ -95,5 +95,10 @@ iframe{
 #imgali{
   width:50%;
   margin:30px;
+  
+}
+#imgali:hover{
+  background-color:light grey;
+  border-radius: 20px;
 }
 
