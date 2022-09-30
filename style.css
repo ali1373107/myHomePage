@@ -74,7 +74,7 @@ body {
 #img:hover{
   width:40%;
 }
-#pre, #next, #submit:hover {
+#pre:hover, #next:hover, #submit:hover {
 background: #016ABC;
 color: #fff;
 border: 1px solid #eee;
